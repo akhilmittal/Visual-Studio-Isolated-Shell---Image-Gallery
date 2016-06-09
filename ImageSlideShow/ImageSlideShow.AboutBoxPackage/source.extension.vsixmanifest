@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="28d5ee60-4369-474f-84ad-17d80ab95e53">
+    <Name>Magic's Image Gallery</Name>
+    <Author>Akhil Mittal</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">Cool tool window to get a slide show of Magic's Image Gallery.</Description>
+    <Locale>1033</Locale>
+    <MoreInfoUrl>http://www.magicsw.com</MoreInfoUrl>
+    <Icon>ApplicationIcon.ico</Icon>
+    <PreviewImage>slider.png</PreviewImage>
+    <InstalledByMsi>true</InstalledByMsi>
+    <SupportedProducts>
+      <IsolatedShell Version="1.0">ImageSlideShow</IsolatedShell>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    <SystemComponent>true</SystemComponent>
+  </Identifier>
+  <References />
+  <Content>
+    <VsPackage>|%CurrentProject%;PkgdefProjectOutputGroup|</VsPackage>
+  </Content>
+</Vsix>

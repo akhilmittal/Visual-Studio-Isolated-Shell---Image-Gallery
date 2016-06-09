@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="61fe3082-4294-4948-a89c-cca6c911805d">
+    <Name>Shell VSIX manifest</Name>
+    <Author>My Company</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">Core extensions for ImageSlideShow</Description>
+    <Locale>1033</Locale>
+    <InstalledByMsi>true</InstalledByMsi>
+    <SupportedProducts>
+      <IsolatedShell Version="1.0">ImageSlideShow</IsolatedShell>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+    <SystemComponent>true</SystemComponent>
+  </Identifier>
+  <References />
+  <Content>
+    <VsPackage>|VSPackage1;PkgdefProjectOutputGroup|</VsPackage>
+    <VsPackage>|ImageSlideShow.AboutBoxPackage;PkgdefProjectOutputGroup|</VsPackage>
+  </Content>
+</Vsix>
